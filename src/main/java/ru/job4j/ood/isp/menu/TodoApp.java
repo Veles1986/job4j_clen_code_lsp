@@ -3,7 +3,7 @@ package ru.job4j.ood.isp.menu;
 import java.util.Scanner;
 
 public class TodoApp {
-    private ActionDelegate DEFAULT_ACTION = () -> System.out.println("Some action");
+    private static final ActionDelegate DEFAULT_ACTION = () -> System.out.println("Some action");
     private SimpleMenu menu = new SimpleMenu();
 
     public void run() {
